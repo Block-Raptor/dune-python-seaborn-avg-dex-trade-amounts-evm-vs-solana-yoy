@@ -27,7 +27,7 @@ print(df.describe(include='all'))
 df['avg_usd'] = df['avg_usd'].round(1)
 
 
-#using custom colours of these chaings from the logos
+#using custom colours of these chains from the logos
 custom_colors = ["#667ECA", "#6C00F6", "#26E5B3","#EEBA0F","#12AAFE","#0000FE"]
 
 g = sns.relplot(
